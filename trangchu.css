@@ -1,0 +1,38 @@
+*{margin: 10px;
+    padding: 10px;
+    box-sizing:border-box;
+}
+.menu{
+    background-color: antiquewhite;
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu ul li:last-child {
+    margin-right: 0;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.menu ul li a:hover {
+    color: #446084;
+}
+.logo img {
+    max-height: 200px; 
+}
